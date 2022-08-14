@@ -4,4 +4,8 @@ document.getElementById('input-btn').addEventListener('click', function () {
 
     const inputText = inputField.value;
 
+    const changeText = document.getElementById('change-text');
+    changeText.innerText = inputText;
+    inputField.value = '';
+
 });
